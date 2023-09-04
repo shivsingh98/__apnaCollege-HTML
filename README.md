@@ -97,4 +97,40 @@ but recommended in lower case.
 
 ## Assignment HTML Level 1
 
-(![Assignment](./img/image_5.png)
+![Assignment](./img/image_5.png)
+
+## Inline v/s Block
+
+![Inline v/s Block](./img/image_6.png)
+
+## Block element
+
+   heading `<h1>` and paragraph `<p>` are block element.
+
+## Inline Element 
+
+`<a>` and `<img>` are inline elements.
+
+## Div Element
+
+Div is also known as content division element  
+Div is a <mark>container</mark> used to hold other HTML elements or group elements together. it is a <mark>block</div> element.   
+
+
+```html
+    <div>  
+        <a href="https://www.google.com">Google</a>
+        <a href="https://www.youtube.com">Youtube</a>
+    </div>
+```
+![span tag](./img/image_7.png)
+
+## Hr Tag
+
+Horizontal Rule Element   
+`<hr>`
+
+## Sub & Sup Tag
+
+![Sub & Sup](./img/image_8.png)
+
