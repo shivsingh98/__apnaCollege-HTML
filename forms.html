@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="/server">
+        <label for="username">Username</label>
+        <input type="text" placeholder="enter username" id="username" name="username">
+        <br>
+        <!-- <label for="email">Email</label>
+        
+        <input type="email" id="email" placeholder="enter email">
+        <br> -->
+       <label for="pass"> Password</label>
+        <input type="password" id="pass" placeholder="enter password" name="password">
+        <br>
+        <!-- <label for="age">Age</label>
+        <input type="number" id="age" placeholder="enter age">
+        <br>
+        Time
+        <input type="time" >
+        <br>
+        Color
+        <input type="color" >
+        <br>
+
+        <button type="submit">Submit</button>
+        <button type="button">Hello</button>
+        <button type="reset">Reset</button>
+
+        <input type="button" value="click me">-->
+        <input type="checkbox" id="age" name="age" checked>
+        <label for="age">I am 18+</label>
+        <br>
+        <div>
+            <input type="radio" name="fruit" id="apple" value="apple">
+            <label for="apple">Apple</label>
+            <input type="radio" name="fruit" id="banana" value="banana>
+            <label for="banana">Banana</label>
+            <input type="radio" name="fruit" id="orange" value="orange">
+            <label for="orange">Orange</label>
+        </div>
+
+        <div>
+            <select name="profession" id="profession">
+                <option >choose your profession</option>
+                <option value="SDE" selected>SDE</option>
+                <option value="police">Police</option>
+                <option value="army">Army</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="volume">Volume</label>
+            <input type="range" min="0" max="100" name="vol" step="2" value="5">
+        </div>
+        <label for="feedback">Please provide your valuable feedback:</label>
+        <textarea name="feedback" id="feedback" cols="5" rows="2" placeholder="write your feedback here"></textarea>
+        <input type="submit" > 
+    </form>
+
+    <hr>
+    <hr>
+    <hr>
+<!-- 
+    <form action="https://www.youtube.com/results/">
+        <input type="text" placeholder="search in youtube" name="search_query">
+        <button type="submit">Search</button>
+
+        
+    </form> -->
+</body>
+</html>

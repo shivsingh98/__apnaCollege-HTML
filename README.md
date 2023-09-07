@@ -171,3 +171,134 @@ emmet.io
 ![HTML5](./img/image_11.png)
 
 ![Alt text](./img/image_12.png)
+
+## Table:
+
+Tables are used to represent real life table data. It is a combination of rows and columns.  
+
+![HTML Table](./img/image_13.png)
+
+`<tr>` used to display table row     
+`<td>` used to display table data     
+`<th>` used to display table header    
+`<caption>` used to display table caption/heading   
+
+### Semantics in table
+
+`<thead>` to wrap table header  
+`<tbody>` to wrap table body  
+`<tfoot>` to wrap table footer  
+
+![colspan & rowspan](./img/image_14.png)
+
+
+## Forms
+
+Forms are used to collect data from the user.  
+
+`<form>` form content `</form>`  
+
+![action attribute](./img/image_15.png)
+
+## Form Elements:
+
+### Input
+
+- used to create multiple form controls
+- there are multiple types og inputs that can be created using type attribute.
+
+`<input type="text" >`
+
+### type attributes
+
+`<input type="text" >`  
+`<input type="password" >`   
+`<input type="number" >`   
+`<input type="time" >`    
+`<input type="color" >`   
+`<input type="email" >`
+
+### placeholder attribute
+
+`<input type="email" placeholder="enter email">`
+
+ ![Label](./img/image_16.png)
+
+ ```
+    <label for="username">Username</label>
+    <input type="text" placeholder="enter username" id="username">
+ ```
+
+ for will be mapped with id attribute.    
+
+ ## Button :
+
+ inside the form behaviour of button to submit the form data except reset button  
+ ```
+ <button>Submit</button>
+ <button>Hello</button>
+ ```
+
+ ### type of buttons
+
+ #### type attribute
+  
+  `<button type="submit">submit</button>` used to submit the information
+  `<button type="button">do something</button>`
+  `<button type="reset">do something</button>` clear the form data
+
+  #### Button using input
+
+  `<input type="submit">"`
+  `<input type="submit" value="click me>"`
+  `<input type="button" value="click me>"`
+
+  ## Name Attribute
+
+  Name of the form control. submitted with the form as part of a name/value pair   
+
+  `<input type="text" placeholder="enter username" id="username" name="username">`
+
+  ### checkbox
+
+  ```
+   <input type="checkbox" id="age" name="age" checked>
+   <label for="age">I am 18+</label>
+  ```
+  If the checkbox is checked then it sends on and if unchecked it sends nothing.   
+
+
+## Radio Button
+
+```
+ <input type="radio" name="fruit" id="apple" value="apple">
+ <label for="apple">Apple</label>
+```
+
+name attribute must be same and value attribute must be given.     
+we can also group the checkbox the same as radio but still we can select multiple option.
+
+## Select Element (Dropdown)
+
+```
+<select name="profession" id="profession">
+    <option >choose your profession</option>
+    <option value="SDE" selected>SDE</option>
+    <option value="police">Police</option>
+    <option value="army">Army</option>
+</select>
+
+```
+
+## Input Range
+
+```
+<label for="volume">Volume</label>
+<input type="range" min="0" max="100" name="vol" step="3 value="10">
+```
+## textarea
+
+```
+ <label for="feedback">Please provide your valuable feedback:</label>   
+ <textarea name="feedback" id="feedback" cols="5" rows="2" placeholder="write your feedback here"></textarea>
+```
