@@ -134,3 +134,40 @@ Horizontal Rule Element
 
 ![Sub & Sup](./img/image_8.png)
 
+## Semantic Markup
+
+It is the markup that relates to the meaning of content.  
+1. Semantic 
+2. non-semantic
+
+#### Benifits of using Semantic tags:
+1. (meaningful / structured layout)
+1. SEO friendly
+1. readable + screen reader (better UX)
+
+
+## Semantic Tags
+
+- `<header></header>`
+- `<main></main>`
+- `<footer></footer>`
+- `<nav></nav>`
+- `<article></article>`
+- `<section></section>`
+- `<aside></aside>`
+
+Try to make only one header, footer, and main tag.
+
+## HTML Entities:
+
+![HTML Entities](./img/image_9.png)
+![Alt text](./img/image_10.png)
+
+## Emmet
+
+emmet.io
+[Emmet](https://emmet.io/)
+
+![HTML5](./img/image_11.png)
+
+![Alt text](./img/image_12.png)
