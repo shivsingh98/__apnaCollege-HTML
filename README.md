@@ -1,15 +1,22 @@
 # HTML
 ## Serise of a HTML by apna college.
+## What is <mark>HTML</mark>?
+HTML stands for HyperText Markup language, used to structure & format web pages.   
+
 ![image_1](./img/image_1.png)  
-![image_2](./img/image_2.png)
+<!-- ![image_2](./img/image_2.png) -->
 
 ## HTML Elements
+The HTML element is everything from the start tag to the end tag:   
+`<tagname>Content goes here...</tagname> `  
+
 standard Elements that browser recognizes:  
 
 - Paragraph `(<p> text </p>)`
 - Heading `(<h1> text </h1>)`
 - Image `(<img src="" alt="">)`
 
+### HTML Tags :
 The component used to design the structure of website are called HTML tags.
 
 ![image_3](./img/image_3.png)
@@ -113,8 +120,8 @@ but recommended in lower case.
 
 ## Div Element
 
-Div is also known as content division element  
-Div is a <mark>container</mark> used to hold other HTML elements or group elements together. it is a <mark>block</div> element.   
+Div is also known as the content division element   
+Div is a <mark>container</mark> used to hold other HTML elements or group elements together. It is a <mark>block</div> element.   
 
 
 ```html
@@ -243,15 +250,15 @@ Forms are used to collect data from the user.
 
  #### type attribute
   
-  `<button type="submit">submit</button>` used to submit the information
-  `<button type="button">do something</button>`
-  `<button type="reset">do something</button>` clear the form data
+  `<button type="submit">submit</button>` used to submit the information  
+  `<button type="button">do something</button>`   
+  `<button type="reset">do something</button>` clear the form data  
 
   #### Button using input
 
-  `<input type="submit">"`
-  `<input type="submit" value="click me>"`
-  `<input type="button" value="click me>"`
+  `<input type="submit">"`  
+  `<input type="submit" value="click me>"`  
+  `<input type="button" value="click me>"`  
 
   ## Name Attribute
 
